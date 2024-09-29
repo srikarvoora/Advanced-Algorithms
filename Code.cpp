@@ -25,8 +25,13 @@ std::string longestCommonSubstring(const std::string& str1, const std::string& s
 }
 
 int main() {
-    std::string str1 = "ABAB";
-    std::string str2 = "BABA";
+    std::string str1, str2;
+
+    std::cout << "Enter string 1: ";
+    std::cin >> str1;
+
+    std::cout << "Enter string 2: ";
+    std::cin >> str2;
 
     std::string longestSubstring = longestCommonSubstring(str1, str2);
 
